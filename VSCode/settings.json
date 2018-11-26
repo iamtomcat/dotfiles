@@ -1,1 +1,18 @@
-/Users/tom/Library/Mobile Documents/com~apple~CloudDocs/Mackup/Library/Application Support/Code/User/settings.json
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontSize": 10,
+    "go.gopath": null,
+    "window.zoomLevel": 0,
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "boundary",
+    "editor.wordWrap": "on",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "git.autofetch": true,
+    "gitlens.historyExplorer.enabled": true,
+    "files.trimTrailingWhitespace": true,
+    "markdown-preview-enhanced.liveUpdate": true,
+    "workbench.colorTheme": "Dracula",
+    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace"
+}

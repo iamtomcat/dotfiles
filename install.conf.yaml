@@ -1,9 +1,18 @@
-- clean: ["~"]
+# Settings
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true # Swap the original file
+
+# TODO: ?
+- clean: ['~']
+
+# Run shell commands
+- shell:
+    # Install submodules
+    - [git submodule update --init --recursive, Installing submodules]
+
+# Symlink files
 - link:
-  # vscode:
-  "~/Library/Application Support/Code/User/settings.json":
-    path: vscode/settings.json
-    create: true
-  "~/Library/Application Support/Code/User/snippets":
-    path: vscode/snippets
-    create: true
+    ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
